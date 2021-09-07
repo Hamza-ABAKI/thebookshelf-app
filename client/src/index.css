@@ -1,0 +1,90 @@
+main {
+  min-height: 30rem;
+}
+.navy {
+  margin-left: auto !important;
+}
+.cardy {
+  min-height: 35rem;
+  min-width: 17rem;
+}
+.rating span {
+  margin: 0.1rem;
+}
+.booky {
+  min-width: 30rem !important;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+.confirmOrder {
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confirmOrder i,
+.confirmOrder h2 {
+  margin: 20px;
+}
+.icon_u {
+  margin: 15px 10px 10px 40px !important;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 350px;
+  padding: 25px;
+  margin: 40px;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+
+/* modal */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: #fff;
+}
+.popup-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
